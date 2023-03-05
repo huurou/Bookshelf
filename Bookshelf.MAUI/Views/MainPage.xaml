@@ -20,6 +20,7 @@
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
 
+        
         <Grid RowDefinitions="26,*,*,*,*,*,*" ColumnDefinitions="*,*,*,*,*,*,*" RowSpacing="5" ColumnSpacing="5" HeightRequest="300">
             <Label Text="日" Grid.Row="0" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" />
             <Label Text="月" Grid.Row="0" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" />
