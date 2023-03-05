@@ -4,6 +4,7 @@
              xmlns:local="clr-namespace:Bookshelf.MAUI.Views.Controls"
              x:Class="Bookshelf.MAUI.Views.Controls.CalendarView">
     <VerticalStackLayout>
+        <Label x:Name="YearMonthLabel" />
         <Grid RowDefinitions="26" ColumnDefinitions="*,*,*,*,*,*,*" ColumnSpacing="5">
             <Label Text="日" Grid.Column="0" VerticalOptions="Center" HorizontalOptions="Center" />
             <Label Text="月" Grid.Column="1" VerticalOptions="Center" HorizontalOptions="Center" />
